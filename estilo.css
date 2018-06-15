@@ -1,0 +1,129 @@
+/* ========================================================= */
+
+
+/* ========================== layout ======================= */
+html, body, .capa {
+	height: 100%
+}
+
+body {
+	background: url('imagens/capa.png'),
+				url('imagens/ruido.png'),
+				linear-gradient(60deg,#2D7CE7,#D8EE63);
+	background-attachment: fixed;
+	font-family: Helvetica,Arial,sans-serif;
+}
+
+/* -- Barra de Navegação -- */
+.img-logo {
+	height: 40px;
+	width: 132px;
+	display: block;
+	background: url('imagens/rmstudio.svg') no-repeat;
+	background-size: contain;
+	color: transparent;
+}
+
+nav.navbar-transparente {
+	padding: 15px 0px;
+	background: rgba(0, 0, 0, 0.6);
+	border: none;
+}
+
+.navbar-brand{
+	padding: 5px 15px;
+}
+
+.divisor {
+	width: 1px;
+	height: 16px;
+	background: white;
+	margin: 16px 10px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+	color: #6e7df4;
+}
+
+/* -- Imagem de capa -- */
+.capa {
+	display: table;
+	width: 100%;
+}
+
+.texto-capa {
+	text-align: center;
+	color: white;
+	display: table-cell;
+	vertical-align: middle;
+	letter-spacing: -2px
+	line-height: 104px;
+}
+
+/* -- Corpo -- */
+#corpo1 {
+	display: table;
+	width: 100%;
+	text-align: center;
+}
+/* -- secao servicos -- */
+#servicos {
+	background: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+
+}
+
+
+/* -- Carousel -- */
+.coloracao-caption {
+	color: red;
+}
+
+/* Media Queries */
+
+
+
+/* ========================== Tipografia ======================*/
+ p {
+	font-size: 15px;
+	font-weight: 500;
+	letter-spacing: 1px;
+}
+
+h1 {
+	font-size: 90px;
+	font-weight: 900;
+	letter-spacing: -2px
+	line-height: 104px;
+	margin-bottom: 50px;
+}
+
+h2 {
+	font-size: 40px;
+	font-weight: 900;
+	letter-spacing: -2px
+	line-height: 104px;
+	margin-bottom: 50px;
+}
+
+h3 {
+	font-size: 20px;
+	font-weight: 900;
+	letter-spacing: -2px
+	line-height: 104px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 468px){
+	p{font-size: 15px;}
+	h1{font-size: 45px;}
+	h2{font-size: 25px;}
+	h3{font-size: 20px;}
+}
+
