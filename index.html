@@ -12,14 +12,15 @@
   <!-- Bootstrap -->
   <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="estilo.css" rel="stylesheet">
-  <link href="aos/dist/aos.css" rel="stylesheet">
+  <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
 
   <!-- HTML5 Shim e Respond.js para suporte ao IE8 de elementos HTML5 e consultas de mídia -->
   <!-- AVISO: o Respond.js não funciona se você visualizar a página via file: // -->
   <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <![endif]--> 
+
 </head>
 
 <body>
@@ -65,71 +66,63 @@
       <h1> Junte-se a nós e veja sua evolução na música. </h1>
       <a class="btn btn-primary btn-lg" href="#" role="button">Matricule-se Já!</a>
       </br><h2>E Esqueça o CifraClub!</h2>
-
     </div>
   </div><!-- /capa -->
   
-
-    <img src="imagens/chelo.png" id="chelo" class="img-responsive" >
-
-
-
   <!-- Conteudo -->
   <section id="servicos">
     <div class="container">
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-6 " data-aos="fade-up" data-aos-once="true">
           
           <div>
-            <h3>Objetivo</h3>
-            <p>Você podera desfrutar de diversas apostilas elaboradas pelos nossos instrutores.</p>
+            <h3>Objetivo.</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam blandit metus id eros interdum hendrerit.</p>
           </div>
 
           <div>
-            <h3>Objetivo</h3>
-            <p>Você podera desfrutar de diversas apostilas elaboradas pelos nossos instrutores.</p>
+            <h3>Diversos cursos.</h3>
+            <p>Etiam ullamcorper, elit at molestie fermentum, erat elit faucibus velit, feugiat sodales augue mauris in magna. </p>
           </div>
 
           <div>
-            <h3>Objetivo</h3>
-            <p>Você podera desfrutar de diversas apostilas elaboradas pelos nossos instrutores.</p>
+            <h3>Sistema de Apostilas online para alunos.</h3>
+            <p>Sed iaculis ut odio et hendrerit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed sed mauris et est commodo hendrerit dignissim vel massa.</p>
           </div>
 
           <div>
-            <h3>Objetivo</h3>
-            <p>Você podera desfrutar de diversas apostilas elaboradas pelos nossos instrutores.</p>
+            <h3>Independência, sem mais sites de cifra para aprender as notas.</h3>
+            <p>Pellentesque risus est, tempor et tellus quis, sollicitudin pretium diam. Proin elementum purus non quam malesuada cursus. Aliquam elit magna, malesuada eget velit et, efficitur facilisis risus.</p>
           </div>
 
-        </div>
+          </div>
 
-        <div class="col-md-6" class="container" id="textoimg">
-          
-          <h3>Objetivo</h3>
-          <p>Você podera desfrutar de diversas apostilas elaboradas pelos nossos</br> instrutores.</p>
-
-          <h3>Objetivo</h3>
-          <p>Você podera desfrutar de diversas apostilas elaboradas pelos nossos</br> instrutores.</p>
-
-          <h3>Objetivo</h3>
-          <p>Você podera desfrutar de diversas apostilas elaboradas pelos nossos</br> instrutores.</p>
+          <div class="col-md-6" data-aos="fade-up" data-aos-once="true">
+            <img src="imagens/salaDeAula.jpg" class="img-responsive" alt="Foto da Sala de Aula">
+            <h4>Nossa sala de aula, adaptada para diversos cursos, e ensaios de bandas.</h4>
+          </div>         
 
         </div>
 
       </div>
-
      
     </div> <!-- container -->
     
-  </section>
+  </section> <!-- serviços -->
 
-
-
+  
   <!-- jQuery (necessário para plugins JavaScript do Bootstrap) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
   <!-- Inclua todos os plugins compilados (abaixo) ou inclua arquivos individuais conforme necessário -->
   <script src="bootstrap/js/bootstrap.min.js"></script>
-  <script src="aos/dist/aos.js"></script>
+  <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+  <script>
+    AOS.init ({
+       duration: 850
+    });
+  </script>
+  
 </body>
 
 </html>
