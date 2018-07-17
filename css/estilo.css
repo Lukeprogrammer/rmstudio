@@ -1,0 +1,287 @@
+/* ========================== FlexBox ======================== */
+
+
+
+/* ========================== layout ======================= */
+
+html, body, .capa {
+  height: 100%
+}
+
+body {
+  background: url('../imagens/capa3.png'), url('../imagens/ruido.png'), linear-gradient(60deg, #2D7CE7, #D8EE63);
+  background-attachment: fixed;
+  font-family: 'Roboto', sans-serif !important;
+  overflow-x: hidden;
+
+}
+
+/* -- Barra de Navegação -- */
+
+.img-logo {
+  height: 40px;
+  width: 132px;
+  display: block;
+  background: url('../imagens/rmstudio.svg') no-repeat;
+  background-size: contain;
+  color: transparent;
+}
+
+nav.navbar-transparente {
+  padding: 15px 0px;
+  background: rgba(0, 0, 0, 0.6);
+  border: none;
+}
+
+.navbar-brand {
+  padding: 5px 15px;
+}
+
+.divisor {
+  width: 1px;
+  height: 16px;
+  background: white;
+  margin: 16px 10px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+  color: #1E90FF;
+}
+
+button.navbar-toggle.colapse {
+  background: url('../imagens/navbar_icon.png') no-repeat !important;
+}
+
+/* -- Imagem de capa -- */
+
+.capa {
+  display: table;
+  width: 100%;
+}
+
+.texto-capa {
+  text-align: center;
+  color: white;
+  display: table-cell;
+  vertical-align: middle;
+  letter-spacing: -2px line-height: 104px;
+}
+
+.btn-custom {
+  background-color: white;
+  color: black;
+  border-radius: 500px;
+  -webkit-border-radius:500px;
+  -moz-border-radius:500px;
+  padding: 10px 35px;
+  margin: 0px 15px;
+  text-transform: uppercase;
+  transition: background 0.4s, color 0.4s;
+}
+
+.btn-custom:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+/* -- Corpo -- */
+
+#corpo1 {
+  display: table;
+  width: 100%;
+  text-align: center;
+}
+
+/* -- conteudo -- */
+#servicos {
+  background: white;
+  padding-top: 20px;
+  /*box-shadow: -10px 0px 21px rgba(0, 0, 0, 0.7) ;*/
+}
+
+.rotacionar {
+  float: right;
+  transform:rotate(30deg);
+  -ms-transform: rotate(30deg); /* IE 9 */
+  -webkit-transform: rotate(30deg); /* Chrome, Safari, Opera*/
+  padding-left: 80px;
+}
+/* -- Cursos -- */
+#cursos {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.blocos {
+  border-radius: 5px;
+  height: 230px;
+  width: 550px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  background-color: white;
+  box-shadow: 0px 2px 15px -1px rgba(0,0,0,0.8)
+}
+
+.itemblocos {
+  height: 240px;
+  width: 540px;
+  margin-top: 5px;
+  margin-left: 5px;
+  color: black; 
+}
+
+.imgblocos {
+  float: left;
+  height: 60%;
+  width: 28%;
+  
+
+}
+/* Media Queries */
+
+@media screen and (min-width: 911px) {
+  body{
+    background: url('../imagens/capaLG.png'), url('../imagens/ruido.png'), linear-gradient(60deg, #2D7CE7, #D8EE63);
+    background-attachment: fixed;
+  }
+}
+
+@media screen and (max-width: 911px) {
+  body{
+    background: url('../imagens/capa.png'), url('../imagens/ruido.png'), linear-gradient(60deg, #2D7CE7, #D8EE63);
+    background-attachment: fixed;
+  }
+}
+
+@media screen and (max-width: 468px) {
+  .blocos {
+    height: 150px;
+    width: 350px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  .itemblocos {
+    height: 140px;
+    width: 340px;
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+
+  nav.navbar-transparente {
+    background-color: #111010;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .blocos {
+    height: 140px;
+    width: 300px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+  .itemblocos {
+    height: 130px;
+    width: 290px;
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+}
+
+
+/* ========================== Tipografia ======================*/=
+p {
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+h1 {
+  font-size: 90px;
+  font-weight: 700;
+  letter-spacing: -2px line-height: 104px;
+  margin-bottom: 50px;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: -2px line-height: 104px;
+  margin-bottom: 50px;
+}
+
+h3 {
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+}
+
+h4 {
+  font-size: 15px;
+  font-weight: 650;
+  letter-spacing: -2px line-height: 104px;
+  margin-bottom: 50px;
+
+}
+
+.btn-text {
+  font-size: 15px;
+  font-weight: 650;
+}
+
+#textoimg {
+  position: absolute;
+  font-size: 32px;
+  top: 27.5em;
+  left: 22em;
+  padding-bottom: 10px;
+}
+
+.texto-bloco {
+    font-size: 15px;
+    font-weight: 400;
+
+}
+
+.titulo-blocos {
+  font-size: 25px;
+  text-align: center;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 468px) {
+  p {
+    font-size: 15px;
+  }
+  h1 {
+    font-size: 45px;
+  }
+  h2 {
+    font-size: 25px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+
+  h4 {
+    font-size: 8px;
+  }
+
+  .texto-bloco {
+    font-size: 9px;
+  }
+
+  .titulo-blocos {
+    font-size: 15px;
+    font-weight: 400;
+  }
+}

@@ -4,18 +4,20 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width; initial-scale=1.0">
 
   <title>Escola de Música - MR Studio</title>
   <link rel="icon" href="imagens/rmstudio.png">
 
   <!-- Bootstrap -->
   <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="estilo.css" rel="stylesheet">
+  <link href="css/estilo.css" rel="stylesheet">
+  
+  <!-- font -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
+  <!-- aos library -->
   <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
-  <link rel="stylesheet" href="animate/animate.min.css">
-
 
 
   <!-- HTML5 Shim e Respond.js para suporte ao IE8 de elementos HTML5 e consultas de mídia -->
@@ -36,7 +38,7 @@
       <div class="navbar-header">
 
         <!-- botao toggle -->
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#barra-navegacao" id="navbtn">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#barra-navegacao">
             <span class="sr-only">alternar navegação</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -51,7 +53,7 @@
 
       <!-- Navbar -->
       <div class="collapse navbar-collapse" id="barra-navegacao">
-        <ul class="nav navbar-nav navbar-right">
+        <ul class="nav navbar-nav navbar-right ">
           <li><a href="">Cursos</a></li>
           <li><a href="">Apostilas</a></li>
           <li><a href="">Ajuda</a></li>
@@ -68,13 +70,13 @@
   <div class="capa">
     <div class="texto-capa">
       <h1> Junte-se a nós e veja sua evolução na música. </h1>
-      <a class="btn btn-primary btn-lg" href="#" role="button">Matricule-se Já!</a>
-      </br><h2>E Esqueça o CifraClub!</h2>
+      <a class="btn btn-custom btn-lg btn-text" href="#" role="button">Matricule-se Já!</a>
+      </br><h2>E esqueça o CifraClub!</h2>
     </div>
   </div><!-- /capa -->
 
   <!-- Conteudo -->
-  <section id="servicos" data-aos="fade-up">
+  <section id="servicos">
     <div class="container">
       <div class="row">
         <div class="col-md-6 " data-aos="fade-up" data-aos-once="true">
@@ -108,13 +110,9 @@
 
 
           <div class="col-md-6" data-aos="fade-up" data-aos-once="true">
-            <img src="imagens/salaDeAula.jpg" class="img-responsive" alt="Foto da Sala de Aula">
+            <img src="imagens/salaDeAula.jpg" class="img-responsive img-rounded" alt="Foto da Sala de Aula">
             <h4>Nossa sala de aula, adaptada para diversos cursos, e ensaios de bandas.</h4>
           </div>         
-
-          <div class="col-md-6">
-            <img src="imagens/chelo.png" id="chelo" class="img-responsive">
-          </div>
 
         </div>
 
@@ -123,6 +121,111 @@
     </div> <!-- container -->
     
   </section> <!-- serviços -->
+
+
+  <section id="cursos">
+
+    <div class="blocos" data-aos="fade-up" data-aos-once="true">
+      
+      <a href="#"><div class="itemblocos ">
+        <img src="imagens/aula_bateria.jpg" class="img-fluid img-thumbnail imgblocos img-responsive img-circle rounded float-left">
+        <p class="titulo-blocos">Curso de Bateria</p>
+        <p class="texto-bloco">Morbi sodales, velit id hendrerit efficitur, tellus ex vestibulum magna, non vestibulum diam felis vitae ligula. Vivamus at quam tempor, dapibus nisi et, pretium est. Praesent vehicula nibh a vestibulum congue. Ut dapibus nulla vel pretium venenatis. Vivamus nulla elit, finibus quis risus sagittis, congue hendrerit metus. Cras dignissim venenatis metus, congue convallis massa . In augue neque, varius et venenatis nec, elementum et nunc. Cras dignissim venenatis metus, congue convallis massa .</p>
+      </div></a>
+     
+    </div>
+
+    <div class="blocos" data-aos="fade-up" data-aos-once="true">
+      
+      <a href="#"><div class="itemblocos ">
+        <img src="imagens/aula_baixo.jpg" class="img-fluid img-thumbnail imgblocos img-responsive img-circle rounded float-left">
+        <p class="titulo-blocos">Curso de Baixo</p>
+        <p class="texto-bloco">Morbi sodales, velit id hendrerit efficitur, tellus ex vestibulum magna, non vestibulum diam felis vitae ligula. Vivamus at quam tempor, dapibus nisi et, pretium est. Praesent vehicula nibh a vestibulum congue. Ut dapibus nulla vel pretium venenatis. Vivamus nulla elit, finibus quis risus sagittis, congue hendrerit metus. Cras dignissim venenatis metus, congue convallis massa . In augue neque, varius et venenatis nec, elementum et nunc. Cras dignissim venenatis metus, congue convallis massa .</p>
+      </div></a>
+     
+    </div>
+
+    <div class="blocos" data-aos="fade-up" data-aos-once="true">
+      
+      <a href="#"><div class="itemblocos ">
+        <img src="imagens/aula_canto.jpg" class="img-fluid img-thumbnail imgblocos img-responsive img-circle rounded float-left">
+        <p class="titulo-blocos">Curso de Canto</p>
+        <p class="texto-bloco">Morbi sodales, velit id hendrerit efficitur, tellus ex vestibulum magna, non vestibulum diam felis vitae ligula. Vivamus at quam tempor, dapibus nisi et, pretium est. Praesent vehicula nibh a vestibulum congue. Ut dapibus nulla vel pretium venenatis. Vivamus nulla elit, finibus quis risus sagittis, congue hendrerit metus. Cras dignissim venenatis metus, congue convallis massa . In augue neque, varius et venenatis nec, elementum et nunc. Cras dignissim venenatis metus, congue convallis massa .</p>
+      </div></a>
+     
+    </div>
+
+    <div class="blocos" data-aos="fade-up" data-aos-once="true">
+      
+      <a href="#"><div class="itemblocos ">
+        <img src="imagens/aula_guitarra.jpg" class="img-fluid img-thumbnail imgblocos img-responsive img-circle rounded float-left">
+        <p class="titulo-blocos">Curso de Guitarra</p>
+        <p class="texto-bloco">Morbi sodales, velit id hendrerit efficitur, tellus ex vestibulum magna, non vestibulum diam felis vitae ligula. Vivamus at quam tempor, dapibus nisi et, pretium est. Praesent vehicula nibh a vestibulum congue. Ut dapibus nulla vel pretium venenatis. Vivamus nulla elit, finibus quis risus sagittis, congue hendrerit metus. Cras dignissim venenatis metus, congue convallis massa . In augue neque, varius et venenatis nec, elementum et nunc. Cras dignissim venenatis metus, congue convallis massa .</p>
+      </div></a>
+     
+    </div>
+
+    <div class="blocos" data-aos="fade-up" data-aos-once="true">
+      
+      <a href="#"><div class="itemblocos ">
+        <img src="imagens/aula_piano.jpg" class="img-fluid img-thumbnail imgblocos img-responsive img-circle rounded float-left">
+        <p class="titulo-blocos">Curso de Piano</p>
+        <p class="texto-bloco">Morbi sodales, velit id hendrerit efficitur, tellus ex vestibulum magna, non vestibulum diam felis vitae ligula. Vivamus at quam tempor, dapibus nisi et, pretium est. Praesent vehicula nibh a vestibulum congue. Ut dapibus nulla vel pretium venenatis. Vivamus nulla elit, finibus quis risus sagittis, congue hendrerit metus. Cras dignissim venenatis metus, congue convallis massa . In augue neque, varius et venenatis nec, elementum et nunc. Cras dignissim venenatis metus, congue convallis massa .</p>
+      </div></a>
+     
+    </div>
+
+    <div class="blocos" data-aos="fade-up" data-aos-once="true">
+      
+      <a href="#"><div class="itemblocos ">
+        <img src="imagens/aula_teclado.jpg" class="img-fluid img-thumbnail imgblocos img-responsive img-circle rounded float-left">
+        <p class="titulo-blocos">Curso de Teclado</p>
+        <p class="texto-bloco">Morbi sodales, velit id hendrerit efficitur, tellus ex vestibulum magna, non vestibulum diam felis vitae ligula. Vivamus at quam tempor, dapibus nisi et, pretium est. Praesent vehicula nibh a vestibulum congue. Ut dapibus nulla vel pretium venenatis. Vivamus nulla elit, finibus quis risus sagittis, congue hendrerit metus. Cras dignissim venenatis metus, congue convallis massa . In augue neque, varius et venenatis nec, elementum et nunc. Cras dignissim venenatis metus, congue convallis massa .</p>
+      </div></a>
+     
+    </div>
+
+    <div class="blocos" data-aos="fade-up" data-aos-once="true">
+      
+      <a href="#"><div class="itemblocos ">
+        <img src="imagens/aula_ukulele.jpg" class="img-fluid img-thumbnail imgblocos img-responsive img-circle rounded float-left">
+        <p class="titulo-blocos">Curso de Ukulele</p>
+        <p class="texto-bloco">Morbi sodales, velit id hendrerit efficitur, tellus ex vestibulum magna, non vestibulum diam felis vitae ligula. Vivamus at quam tempor, dapibus nisi et, pretium est. Praesent vehicula nibh a vestibulum congue. Ut dapibus nulla vel pretium venenatis. Vivamus nulla elit, finibus quis risus sagittis, congue hendrerit metus. Cras dignissim venenatis metus, congue convallis massa . In augue neque, varius et venenatis nec, elementum et nunc. Cras dignissim venenatis metus, congue convallis massa .</p>
+      </div></a>
+     
+    </div>
+
+    <div class="blocos" data-aos="fade-up" data-aos-once="true">
+      
+      <a href="#"><div class="itemblocos ">
+        <img src="imagens/aula_violao.jpg" class="img-fluid img-thumbnail imgblocos img-responsive img-circle rounded float-left">
+        <p class="titulo-blocos">Curso de Violão</p>
+        <p class="texto-bloco">Morbi sodales, velit id hendrerit efficitur, tellus ex vestibulum magna, non vestibulum diam felis vitae ligula. Vivamus at quam tempor, dapibus nisi et, pretium est. Praesent vehicula nibh a vestibulum congue. Ut dapibus nulla vel pretium venenatis. Vivamus nulla elit, finibus quis risus sagittis, congue hendrerit metus. Cras dignissim venenatis metus, congue convallis massa . In augue neque, varius et venenatis nec, elementum et nunc. Cras dignissim venenatis metus, congue convallis massa .</p>
+      </div></a>
+     
+    </div>
+
+    <div class="blocos" data-aos="fade-up" data-aos-once="true">
+      
+      <a href="#"><div class="itemblocos ">
+        <img src="imagens/aula_violino.jpg" class="img-fluid img-thumbnail imgblocos img-responsive img-circle rounded float-left">
+        <p class="titulo-blocos">Curso de Violino</p>
+        <p class="texto-bloco">Morbi sodales, velit id hendrerit efficitur, tellus ex vestibulum magna, non vestibulum diam felis vitae ligula. Vivamus at quam tempor, dapibus nisi et, pretium est. Praesent vehicula nibh a vestibulum congue. Ut dapibus nulla vel pretium venenatis. Vivamus nulla elit, finibus quis risus sagittis, congue hendrerit metus. Cras dignissim venenatis metus, congue convallis massa . In augue neque, varius et venenatis nec, elementum et nunc. Cras dignissim venenatis metus, congue convallis massa .</p>
+      </div></a>
+     
+    </div>
+
+    <div class="blocos" data-aos="fade-up" data-aos-once="true">
+      
+      <a href="#"><div class="itemblocos ">
+        <img src="imagens/aula_violoncelo.jpg" class="img-fluid img-thumbnail imgblocos img-responsive img-circle rounded float-left">
+        <p class="titulo-blocos">Curso de Violoncelo</p>
+        <p class="texto-bloco">Morbi sodales, velit id hendrerit efficitur, tellus ex vestibulum magna, non vestibulum diam felis vitae ligula. Vivamus at quam tempor, dapibus nisi et, pretium est. Praesent vehicula nibh a vestibulum congue. Ut dapibus nulla vel pretium venenatis. Vivamus nulla elit, finibus quis risus sagittis, congue hendrerit metus. Cras dignissim venenatis metus, congue convallis massa . In augue neque, varius et venenatis nec, elementum et nunc. Cras dignissim venenatis metus, congue convallis massa .</p>
+      </div></a>
+     
+    </div>
+       
+  </section> <!-- /cursos -->
 
   
   <!-- jQuery (necessário para plugins JavaScript do Bootstrap) -->
@@ -133,7 +236,7 @@
   <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
   <script>
     AOS.init ({
-       duration: 850
+       duration: 950
     });
   </script>
   
