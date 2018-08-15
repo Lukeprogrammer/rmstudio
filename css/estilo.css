@@ -44,13 +44,15 @@ nav.navbar-transparente {
   margin: 16px 10px;
 }
 
-.navbar-inverse .navbar-nav>li>a {
+.navbar-inverse .navbar-nav>li>a, footer .nav a {
   color: white;
 }
 
-.navbar-inverse .navbar-nav>li>a:hover {
+.navbar-inverse .navbar-nav>li>a:hover, footer .nav a:hover {
   color: #1E90FF;
+  background: none;
 }
+
 
 button.navbar-toggle.colapse {
   background: url('../imagens/navbar_icon.png') no-repeat !important;
@@ -71,14 +73,19 @@ button.navbar-toggle.colapse {
   letter-spacing: -2px line-height: 104px;
 }
 
+.texto-de-capa {
+  margin-top: 150px; 
+}
+
 .btn-custom {
   background-color: white;
-  color: black;
+  color: red;
   border-radius: 500px;
   -webkit-border-radius:500px;
   -moz-border-radius:500px;
   padding: 10px 35px;
   margin: 0px 15px;
+  margin-top: 50px;
   text-transform: uppercase;
   transition: background 0.4s, color 0.4s;
 }
@@ -98,8 +105,9 @@ button.navbar-toggle.colapse {
 /* -- conteudo -- */
 #servicos {
   background: white;
-  padding-top: 20px;
-  /*box-shadow: -10px 0px 21px rgba(0, 0, 0, 0.7) ;*/
+  padding: 20px 0px 20px 0px;
+  /*padding-top: 20px;
+  padding-bottom: 20px;*/
 }
 
 .rotacionar {
@@ -132,7 +140,7 @@ button.navbar-toggle.colapse {
 .itemblocos {
   height: 240px;
   width: 540px;
-  margin-top: 5px;
+  margin-top: 3px;
   margin-left: 5px;
   color: black; 
 }
@@ -141,9 +149,25 @@ button.navbar-toggle.colapse {
   float: left;
   height: 60%;
   width: 28%;
-  
-
 }
+
+/* Rodape */
+#rodape {
+  margin-top: 50px;
+  background: #000;
+  padding: 50px 0px 20px 0px;
+  position: relative;
+}
+
+.img-logo-rodape {
+  height: 200px;
+  width: 232px;
+  display: block;
+  background: url('../imagens/logo-rodape.png') no-repeat;
+  background-size: contain;
+  color: transparent;
+}
+
 /* Media Queries */
 
 @media screen and (min-width: 911px) {
@@ -204,6 +228,10 @@ p {
   letter-spacing: 1px;
 }
 
+a:hover {
+ text-decoration: none;
+}
+
 h1 {
   font-size: 90px;
   font-weight: 700;
@@ -227,9 +255,8 @@ h3 {
 h4 {
   font-size: 15px;
   font-weight: 650;
-  letter-spacing: -2px line-height: 104px;
-  margin-bottom: 50px;
-
+  color: white;
+  margin-top: 30px;
 }
 
 .btn-text {
@@ -273,7 +300,7 @@ h4 {
   }
 
   h4 {
-    font-size: 8px;
+    font-size: 20px;
   }
 
   .texto-bloco {
@@ -283,5 +310,14 @@ h4 {
   .titulo-blocos {
     font-size: 15px;
     font-weight: 400;
+  }
+
+  .img-logo-rodape{
+    position: relative;
+    left: 30%;
+  }
+
+  #rodape {
+    text-align: center;
   }
 }
