@@ -57,7 +57,7 @@
           <li><a href="">Cursos</a></li>
           <li><a href="">Apostilas</a></li>
           <li class="divisor" role="separator"></li>
-          <li><a href="">Inscrever-se</a></li>
+          <li><a href="cadastro.php">Inscrever-se</a></li>
           <li><a href="" data-toggle="modal" data-target="#janela">Entrar</a></li>
         </ul>
       </div>
@@ -255,13 +255,20 @@
           </ul>
         </div>
 
-        <div class="col-md-4">
+        <div class="col-md-1">
          <ul class="nav ">
               <li class="item-rede-social"><a href="#"><img src="imagens/facebook.png"></a></li>
+            </ul>
+          
+        </div>
+
+        <div class="col-md-2">
+         <ul class="nav ">
               <li class="item-rede-social"><a href="#"><img src="imagens/instagram.png"></a></li>
             </ul>
           
         </div>
+
 
       </div> <!-- /row -->
     </div> <!-- /container --> 

@@ -79,7 +79,8 @@ button.navbar-toggle.colapse {
 
 .btn-custom {
   background-color: white;
-  color: red;
+  color: #FF8C00;
+  font-weight: 800;
   border-radius: 500px;
   -webkit-border-radius:500px;
   -moz-border-radius:500px;
