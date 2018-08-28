@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-	  <meta name="viewport" content="width=device-width; initial-scale=1.0">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	  <title>Inscrever-se</title>
 	  <link rel="icon" href="imagens/rmstudio.png">
@@ -26,6 +26,7 @@
 	      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	    <![endif]-->
 </head>
+
 <body>
 	<!-- Nav -->
 	<nav class="navbar navbar-fixed-top navbar-inverse navbar-transparente">
@@ -79,8 +80,8 @@
 		<label>Senha:</label> <input type="password" name="senha" minlength="7" maxlength="14" required>
 
 		<br/> <br/>			
-		<input class="btn btn-custom btn-lg" type="submit" value="Cadastrar" >
-		<input class="btn btn-custom btn-lg" type="reset" value="Limpar">
+		<input class="btn btn-custom btn-lg" id="btn_submit" type="submit" value="Cadastrar" >
+		<input class="btn btn-custom btn-lg" id="btn_reset" type="reset" value="Limpar">
 	</form>
 
 	<!-- Rodapé --> 
@@ -139,6 +140,7 @@
   <script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>
   <script src="js/jquery.mask.min.js" type="text/javascript"></script>
   <script src="js/mask.form.js"></script>
+  <script src="js/cadastro.js"></script>
   <script src="bootstrap/js/bootstrap.min.js"></script>
   <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
   <script>
